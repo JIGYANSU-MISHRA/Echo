@@ -1,0 +1,86 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+    padding-top: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.sidebar.closed {
+    width: 200px;
+}
+
+.toggle-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.sidebar.closed .toggle-btn {
+    transform: rotate(180deg);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s ease-in-out;
+}
+
+.sidebar ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sidebar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+    border-radius: 5px;
+}
+
+.sidebar.closed ul li a {
+    justify-content: center;
+}
+
+.sidebar ul li a i {
+    font-size: 20px;
+}
+
+/* Smooth collapse effect */
+.sidebar.closed ul li a span {
+    display: none;
+}
+
+.sidebar ul li a span {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.sidebar ul li a i {
+    transition: transform 0.3s ease-in-out;
+}

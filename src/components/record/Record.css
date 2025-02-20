@@ -1,0 +1,77 @@
+.record-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 100px;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    margin-left: 350px;
+    position: relative;
+}
+
+h1 {
+    font-size: 32px; 
+    margin-bottom: 55px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.record-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.record-btn.start {
+    background: #28a745;
+}
+
+.record-btn.stop {
+    background: #dc3545;
+}
+
+.record-btn.copy {
+    background: #ffc107;
+    color: #333;
+}
+
+.record-btn:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+.record-btn:disabled {
+    background: gray;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.transcript {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    word-wrap: break-word;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out; 
+}
