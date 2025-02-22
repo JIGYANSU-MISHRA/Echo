@@ -36,12 +36,13 @@ Smart Voice Assistant a web application designed to help professionals stay enga
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-📱 Framework: React, a popular JavaScript library for building user interfaces.
+📱 Framework: React, a popular JavaScript library for building user interfaces. 
 ⚡ Build Tool: Vite, a fast build tool and development server for modern web projects.
-📝 Programming Languages: JavaScript (50.8%), CSS (48.2%), and HTML (1.0%).
-🔍 Linting: ESLint, a tool for identifying and fixing problems in JavaScript code.
+📝 Programming Languages: JavaScript (50.8%), CSS (48.2%), and HTML (1.0%). 
+🔍 Linting: ESLint, a tool for identifying and fixing problems in JavaScript code
+
 ---
 
 ## 📥 Installation Guide
