@@ -1,37 +1,38 @@
 .extraction-container {
     text-align: center;
     padding: 40px 20px;
-    max-width: 1000px;
-    margin-left: 300px;
+    max-width: 1500px;
+    margin: 2% auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 80vh;
 }
 
-h1 {
-    color: #007bff;
-    font-size: 32px;
-    margin-bottom: 10px;
+.meeting-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
 }
-
-.subtext {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #bbb;
-}
-
 .meeting-card {
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
-    margin: 20px auto;
     border-radius: 12px;
     box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
     text-align: left;
-    width: 100%;
-    max-width: 600px;
+    width: 30%; 
+    min-width: 280px;
     transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
 }
 
 .meeting-card:hover {
     background: rgba(255, 255, 255, 0.2);
-    transform: scale(1.03);
+    transform: translateY(-3px);
 }
 
 h2 {
@@ -58,9 +59,19 @@ h2 {
     color: #ccc;
 }
 
-/* Centering the content properly */
-.extraction-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 1024px) {
+    .meeting-card {
+        width: 45%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .meeting-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .meeting-card {
+        width: 90%; 
+    }
 }

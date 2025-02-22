@@ -46,19 +46,26 @@ const Extraction = () => {
                 Extracted tasks and discussion points from recorded meetings.
             </p>
 
-            {meetings.map((meeting, index) => (
-                <div key={index} className="meeting-card">
-                    <h2>{meeting.title}</h2>
-                    <p className="meeting-info">
-                        📅 {meeting.date} | ⏳ {meeting.duration} | ✅ {meeting.actions} actions
-                    </p>
-                    <ul className="meeting-details">
-                        {meeting.details.map((detail, i) => (
-                            <li key={i}>🔹 {detail}</li>
-                        ))}
-                    </ul>
-                </div>
-            ))}
+            {/* Add meeting-list wrapper */}
+            <div className="meeting-list">
+                {meetings.map((meeting, index) => (
+                    <div key={index} className="meeting-card">
+                        <h2>{meeting.title}</h2>
+                        <p className="meeting-info">
+                            📅 {meeting.date} | ⏳ {meeting.duration} | ✅ {meeting.actions} actions
+                        </p>
+                        <ul className="meeting-details">
+                            {meeting.details.map((detail, i) => (
+                                <li key={i}>{detail}</li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+            </div>
+            <footer className="home-footer">
+                <p>Empowering professionals to focus on conversations while we handle the details!</p>
+                <p className="copyright">© 2025 Made by Jigyansu Mishra</p>
+            </footer>
         </div>
     );
 };

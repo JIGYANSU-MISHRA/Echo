@@ -84,3 +84,58 @@
 .sidebar ul li a i {
     transition: transform 0.3s ease-in-out;
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 220px;
+    }
+
+    .sidebar.closed {
+        width: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .sidebar.closed {
+        width: 160px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .sidebar.closed {
+        width: 100%;
+    }
+
+    .sidebar ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .sidebar ul li {
+        padding: 10px;
+        display: inline-block;
+    }
+
+    .sidebar ul li a {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .sidebar.closed ul li a span {
+        display: inline;
+    }
+}
