@@ -1,15 +1,13 @@
 # 🗣️ Smart Voice Assistant
 
-## 🎥 Video Demonstration
-[Watch the Demo](#)  
+ 🎥 Video Demonstration: [Watch the Demo](#)  
 
-## 🌍 Live Demo
-[Try it Here](#)
+ 🌍 Live Demo: [Try it Here](#)
 
 ---
 
 ## 📌 Overview
-Smart Voice Assistant is a mobile application designed to help professionals stay engaged in conversations while automatically capturing key discussion points. It records voice interactions, transcribes them in real-time, and extracts actionable insights like tasks, calendar events, and meeting summaries.
+Smart Voice Assistant a web application designed to help professionals stay engaged in conversations while automatically capturing key discussion points. It records voice interactions, transcribes them in real-time, and extracts actionable insights like tasks, calendar events, and meeting summaries.
 
 ---
 
@@ -38,22 +36,12 @@ Smart Voice Assistant is a mobile application designed to help professionals sta
 
 ---
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 
-### **Frontend**
-📱 React Native  
-⚡ JavaScript (ES6+)  
-🗣️ React Native Voice (for speech recognition)  
-
-### **Backend**
-🚀 Node.js & Express.js  
-💾 MongoDB (for data storage)  
-🤖 AI-Powered APIs (OpenAI / Google Gemini for NLP)  
-
-### **Development Tools**
-🔧 Vite (for fast builds and development)  
-📜 ESLint (for code quality)  
-
+📱 Framework: React, a popular JavaScript library for building user interfaces.
+⚡ Build Tool: Vite, a fast build tool and development server for modern web projects.
+📝 Programming Languages: JavaScript (50.8%), CSS (48.2%), and HTML (1.0%).
+🔍 Linting: ESLint, a tool for identifying and fixing problems in JavaScript code.
 ---
 
 ## 📥 Installation Guide
@@ -80,17 +68,17 @@ echo "API_KEY=your_api_key_here" > .env
 
 5️⃣ Launch the development server:
 ```sh
-npm start
+npm run dev
 ```
 
 ---
 
 ## 🚀 Usage Instructions
 
-🎙️ **Start Recording:** Tap the `Record` button and speak naturally  
+🎙️ **Start Recording:** Tap the `Start Recording` button and speak naturally  
 📝 **Transcription:** Stop recording to view live text output  
 📌 **Action Extraction:** AI extracts tasks, meeting details, and notes  
-📤 **Manage & Share:** Save as PDF or send via email  
+📤 **Copy & Share:** Copy to clipboard or send via email or whatsapp 
 
 ---
 
@@ -102,7 +90,10 @@ npm start
 ---
 
 ## 📸 Screenshots
-*(Include sample UI screenshots here)*
+![image](https://github.com/user-attachments/assets/bf2388e7-73a1-4792-acd6-60070dd7abed)
+![image](https://github.com/user-attachments/assets/f95ca565-351d-4b60-b20b-b5b9c82a9f69)
+![image](https://github.com/user-attachments/assets/4ef167fa-89b6-4b59-aaf0-f4da96be9a9e)
+
 
 ---
 
@@ -130,10 +121,4 @@ git push origin feature/YourFeature
 **Jigyansu Mishra**  
 📌 GitHub: [@JIGYANSU-MISHRA](https://github.com/JIGYANSU-MISHRA)  
 
----
-
-## 🙌 Acknowledgments
-📖 Web Speech API Docs  
-🤖 AI/NLP Services  
-🌍 Open Source Community  
 
