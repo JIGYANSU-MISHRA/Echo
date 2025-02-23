@@ -4,8 +4,7 @@
 [Watch the Demo](#)  
 
 ## 🌍 Live Demo  
-[Try it Here](#)  
-
+https://voxai-by-jigyansu.vercel.app/
 ---
 
 ## 📌 Overview
