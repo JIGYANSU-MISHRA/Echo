@@ -1,10 +1,9 @@
 # 🗣️ Smart Voice Assistant
 
-## 🎥 Video Demonstration  
-[Watch the Demo](#)  
+🎥 Video Demonstration  [Watch the Demo](#)  
 
-## 🌍 Live Demo  
-https://voxai-by-jigyansu.vercel.app/
+🌍 Live Demo  [https://voxai-by-jigyansu.vercel.app/]
+
 ---
 
 ## 📌 Overview
