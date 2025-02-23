@@ -1,4 +1,4 @@
-# 🗣️ Smart Voice Assistant
+# 🗣️ Echo(A Smart Voice Assistant)
 
 🎥 Video Demonstration  [Watch the Demo](#)  
 
