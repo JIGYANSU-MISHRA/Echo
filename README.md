@@ -2,7 +2,7 @@
 
 🎥 Video Demonstration  [Watch the Demo](#)  
 
-🌍 Live Demo:  https://voxai-by-jigyansu.vercel.app/
+🌍 Live Demo:  https://echo-by-jigyansu.vercel.app/
 
 ---
 
