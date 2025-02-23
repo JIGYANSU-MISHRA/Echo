@@ -1,6 +1,6 @@
 # 🗣️ Echo (A Smart Voice Assistant)
 
-🎥 Video Demonstration  [Watch the Demo](#)  
+🎥 Video Demonstration:  https://drive.google.com/file/d/1KN4KWQLGmg66o2scVjn-8S9yOkBOdZS3/view?usp=sharing  
 
 🌍 Live Demo:  https://echo-by-jigyansu.vercel.app/
 
